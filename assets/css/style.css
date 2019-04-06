@@ -1,0 +1,72 @@
+h1 {
+color: gold;
+background-color: black;
+border: 1px;
+border-color: red;
+text-align: center;
+padding: 5%;
+font-size: 25pt;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+	width: 32.60%;
+	height: 39%;
+	float: right;
+	position: relative;
+	bottom: 464px;
+	right: 54px;
+}
+h2 {
+ margin: 50px;
+ border: 1;
+ color: gold;
+}
+h3{
+    position: relative;
+	left: 31px;
+	color: gold;
+}
+
+.word {
+	margin: 20px
+}
+
+#currentWord {
+	position: relative;
+	left: 29px;
+	border: 1pt;
+	color: gold;
+	
+}
+#wins{
+	position: relative;
+	left: 29px;
+	color: gold;
+}
+#losses {
+	position: relative;
+	left: 29px;
+	color: gold;
+}
+#guessesLeft {
+	position: relative;
+	left: 29px;
+	color: gold;
+}
+#lettersGuessed {
+	position: relative;
+	left: 29px;
+	color: gold;
+}
+
+.wrapper {
+	background-color:black;
+	width: 50%;
+	height: 459px;
+	position: relative;
+	left: 42px;
+	border-width: medium;
+    border-style: solid;
+	border-color: gold;
+}
