@@ -71,15 +71,3 @@ h3{
     border-style: solid;
 	border-color: gold;
 }
-
-.lower {
-	background-color: black;
-	width: 50.5%;
-	height: 191px;
-	position: relative;
-	margin: 10px;
-	left: 32px;
-	border-width: medium;
-	border-style: solid;
-	border-color: gold;
-}
