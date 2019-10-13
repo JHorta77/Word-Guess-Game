@@ -10,11 +10,11 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 
 img {
-	width: 32.60%;
+	width: 33.4%;
 	height: 39%;
 	float: right;
 	position: relative;
-	bottom: 464px;
+	bottom: 692px;
 	right: 54px;
 }
 h2 {
@@ -24,7 +24,7 @@ h2 {
 }
 h3{
     position: relative;
-	left: 31px;
+	left: 14px;
 	color: gold;
 }
 
@@ -37,6 +37,7 @@ h3{
 	left: 29px;
 	border: 1pt;
 	color: gold;
+	font-size: 24px;
 	
 }
 #wins{
@@ -63,10 +64,22 @@ h3{
 .wrapper {
 	background-color:black;
 	width: 50%;
-	height: 459px;
+	height: 469px;
 	position: relative;
 	left: 42px;
 	border-width: medium;
     border-style: solid;
+	border-color: gold;
+}
+
+.lower {
+	background-color: black;
+	width: 50.5%;
+	height: 191px;
+	position: relative;
+	margin: 10px;
+	left: 32px;
+	border-width: medium;
+	border-style: solid;
 	border-color: gold;
 }
