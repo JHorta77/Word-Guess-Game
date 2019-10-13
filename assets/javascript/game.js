@@ -109,46 +109,6 @@ document.onkeyup = function (event) {
     }
 }
 
-var playersWithImage = [
-    {
-        name: "bergeron",
-        img: "./assets/images/Bergy.jpg"
-    },
-    {
-        name: "chara",
-        img: "./assets/images/Big Z.jpg"
-    }, {
-        name: "mcavoy",
-        img: "./assets/images/Charlie+McAoy.jpg"
-    }, {
-        name: "wagner",
-        img: "./assets/images/chris-wagner.jpg"
-    }, {
-        name: "debrusk",
-        img: "./assets/images/debrusk.jpg"
-    }, {
-        name: "miller",
-        img: "./assets/images/kevan-miller.jpg"
-    }, {
-        name: "krejci",
-        img: "./assets/images/Krejci.jpg"
-    }, {
-        name: "krug",
-        img: "./assets/images/krug.jpg"
-    }, {
-        name: "marchand",
-        img: "./assets/images/Marchy.jpg"
-    }, {
-        name: "pastrnk",
-        img: "./assets/images/Pasty.jpg"
-    }, {
-        name: "rask",
-        img: "./assets/images/Tuukka-Rask.jpg"
-    },
-    {
-        name: "carlo",
-        img: "./assets/images/Brandon-Carlo.jpg"
-    },
-]
+
 
 
