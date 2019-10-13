@@ -10,7 +10,7 @@ var lettersGuessed;
 var numWins = 0;
 var numLosses = 0;
 var getNewWord;
-var wordPlace; //place in breeds array
+var wordPlace;
 var correctGuesses;
 var wordAsArr = [];
 var dashesArray = [];
@@ -20,11 +20,11 @@ function initialize() {
     lettersGuessed = [];
     correctGuesses = 0;
     wordPlace = Math.floor(Math.random() * 12);
-    currentWord = players[wordPlace];			//string
-    guessesLeft = 17 - currentWord.length;		//longer words get less guesses
-    wordAsDashes = makeIntoDashes(currentWord);	//string of dashes
-    wordAsArr = currentWord.split('');			//array with letters
-    dashesArray = wordAsDashes.split('');		//array with dashes
+    currentWord = players[wordPlace];
+    guessesLeft = 17 - currentWord.length;
+    wordAsDashes = makeIntoDashes(currentWord);
+    wordAsArr = currentWord.split('');
+    dashesArray = wordAsDashes.split('');
     document.getElementById("currentWord").innerHTML = wordAsDashes;
     document.getElementById("lettersGuessed").innerHTML = "--";
     document.getElementById("guessesLeft").innerHTML = guessesLeft;
@@ -40,11 +40,9 @@ function makeIntoDashes(word) {
     return dashes;
 }
 
-// Main function that controls what to do with each keystroke
 function playGame(letter) {
     var letter = letter.toLowerCase();
 
-    // Checks if key is a letter
     if (alphabet.indexOf(letter) > -1) {
         if (wordAsArr.indexOf(letter) > -1) {
             correctGuesses++;
@@ -70,9 +68,7 @@ function playGame(letter) {
     }
 }
 
-// Displays letter if it's in word
 function displayLetter(letter) {
-    // for each char in wordAsDashes, if matches currentWord --> display
     for (i = 0; i < currentWord.length; i++) {
         if (letter == wordAsArr[i]) {
             dashesArray[i * 2] = letter;
@@ -83,7 +79,6 @@ function displayLetter(letter) {
     checkForWin();
 }
 
-// Checks for win by looking for "_"
 function checkForWin() {
     if (dashesArray.indexOf("_") === -1) {
         alert("You got it! The correct answer is " + currentWord);
